@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="CSS/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <title>EarlyMinute</title>
+</head>
+<body>
+        <div class="sidebar">
+            <div class="logo">
+                <h1>Menu</h1>
+                <ul class="menu">
+                    <li class="active">
+                        <a href="index.html">
+                            <i class="bx bx-home-smile"></i>
+                            <span>Beranda</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="arduino.html">
+                            <i class="ri-article-line"></i>
+                            <span>Arduino</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="esp8266.html">
+                            <i class="ri-article-line"></i>
+                            <span>ESP8266</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="shopping.html">
+                            <i class="ri-shopping-bag-line"></i>
+                            <span>Shopping</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html">
+                            <i class="ri-contacts-book-line"></i>
+                            <span>Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="main--content">
+            <div class="header--wrapper">
+                <div class="header--title">
+                    <h2>Early Minute</h2>
+            </div>
+                <div class="user--info">
+                    <div class="searh--box">
+                        <i class="ri-search-line"></i>
+                        <input type="text" placeholder="Search">
+                    </div>
+                </div>
+            </div>
+
+
+             <section class="container-boxa">
+                <div class="text">
+                    <h2>Learn Electronics</h2>
+                    <p>Quick, easy and to the point!</p>
+                </div>
+
+               <div class="container">
+        <div class="contentss-box">
+            <img src="IMGINDEX/arduinoimgindex.png" alt="">
+            <div class="text-content">
+                <h2>Arduino</h2>
+                <p>If this is your first experience tinkering with electronics, Arduino is the best platform you can start playing with.</p>
+                <a href="arduino.html" class="explore-button">Explore</a>
+            </div>
+        </div>
+        <div class="contentss-box">
+            <img src="IMGINDEX/esp8266imgindex.png" alt="">
+            <div class="text-content">
+                <h2>ESP8266</h2>
+                <p>The ESP8266 is the easiest point of entry to basic loT. It is great for beginners and advanced users alike.</p>
+                <a href="esp8266.html" class="explore-button">Explore</a>
+            </div>
+        </div>
+    </div>
+  </section>
+
+           <section>
+   <div class="text">
+    <h2>Arduino Projects</h2>
+</div>
+
+    <div class="slider">
+        <div class="item" onclick="showArticle('article1'); return false;">
+            <img src="IMGS/1.webp" alt="Gambar 1">
+            <h2>Interfacing Ball Tilt Switch Sensor with...</h2>
+            <p>If you want to detect when something is moved, tilted,...</p>
+        </div>
+        <div class="item" onclick="showArticle('article2'); return false;">
+            <img src="IMGS/2.webp" alt="Gambar 2">
+            <h2>Control Stepper Motor with L298N Motor...</h2>
+            <p>If you are planning on assembling your new robot,...</p>
+            
+        </div>
+        <div class="item" onclick="showArticle('article3'); return false;">
+            <img src="IMGS/3.webp" alt="Gambar 3">
+            <h2>Interfacing HC05 Bluetooth Module...</h2>
+            <p>Bluetooth is everywhere nowadays. It's a word we hear...</p>
+            
+        </div>
+
+        <div class="item" onclick="showArticle('article4'); return false;">
+            <img src="IMGS/4.webp" alt="Gambar 4">
+            <h2>Interfacing Micro SD Card Module with...</h2>
+            <p>Every once in a while, you'll come up with an...</p>
+           
+        </div>
+
+        <div class="item" onclick="showArticle('article5'); return false;">
+            <img src="IMGS/5.webp" alt="Gambar 5">
+            <h2>Interfacing Multiple DS18B20 Digital...</h2>
+            <p>Once of the DS18B20's features is that multiple DS18B20s can...</p>
+            
+        </div>
+
+        <div class="item" onclick="showArticle('article6'); return false;">
+            <img src="IMGS/6.webp" alt="Gambar 6">
+            <h2>How 433MHz RF Tx-Rx Modules Work &...</h2>
+            <p>Interested in making your next Arduino project wireless for...</p>
+            
+        </div>
+
+        <div class="item" onclick="showArticle('article7'); return false;">
+            <img src="IMGS/7.webp" alt="Gambar 7">
+            <h2>Making Two Arduinos Communicate...</h2>
+            <p>Having two or more Arduinos able to communicate with...</p>
+           
+        </div>
+
+        <div class="item" onclick="showArticle('article8'); return false;">
+            <img src="IMGS/8.webp" alt="Gambar 8">
+            <h2>Interfacing HTU21D Temperature &...</h2>
+            <p>Want to keep a log of the climate in your...</p>
+            
+        </div>
+        <div class="item" onclick="showArticle('article9'); return false;">
+            <img src="IMGS/9.webp" alt="Gambar 9">
+            <h2>How HC-SR04 Ultrasonic Sensor Works &...</h2>
+            <p>Give your next Arduino project bat-powers with...</p>
+        </div>
+    </div>
+    <div class="article hidden" id="article1">
+        <h2>Interfacing Ball Tilt Switch Sensor with Arduino</h2>
+        <div class="content-wrapper">
+            <div class="image-wrapper">
+                <img src="IMGS/1.webp" alt="">
+            </div>
+            <p>If you want to detect when something is moved, tilted, or shaken without getting into the complexities of an accelerometer, the ball tilt sensor might be the cheapest option.
+                <br><br>
+                A ball tilt sensor is more of a switch that can detect basic motion, orientation or inclination. These switches are designed in such a way that a sufficient level of inclination makes or breaks the electrical connection.
+                <br><br>
+                Such a signal can either be used as an indicator or can be used to turn something ON or OFF.
+
+                They are small, cheap, easy to use and never wear out. Their simplicity makes them popular for use in toys, gadgets, robots, and other devices whose functioning depends on inclination. 
+                <br><br>
+                This is why they are sometimes called the “poor man’s accelerometer“.
+
+
+            </p>
+        </div>
+    </div>
+
+          <div class="article hidden" id="article2">
+            <h2>Control Stepper Motor with L298N Motor Driver & Arduino</h2>
+            <div class="content-wrapper">
+                <div class="image-wrapper">
+                    <img src="IMGS/2.webp" alt="">
+                </div>
+                <p>If you are planning on assembling your new robot, you will eventually want to learn how to control stepper motors.
+                    <br><br>
+                    The easiest and inexpensive way to control stepper motors is to use the L298N motor driver. It can control both the speed and the spinning direction of any small to medium sized bipolar stepper motor such as the NEMA 17.
+                    <br><br>
+                    If you wish to control multiple stepper motors, it is recommended that you use a self-contained dedicated stepper motor driver such as the A4988. If you want to know more about it, check this tutorial out.
+                </p>
+                </div>
+            </div>
+
+              <div class="article hidden" id="article4">
+                <h2>Interfacing Micro SD Card Module with Arduino</h2>
+            <div class="content-wrapper">
+                <div class="image-wrapper">
+                    <img src="IMGS/4.webp" alt="">
+                </div>
+                <p>Every once in a while, you’ll come up with an Arduino project that needs a lot of data storage—whether it’s logging sensor data, saving files, or storing more information than the Arduino’s onboard memory can handle.
+                    <br><br>
+                    So, how do you manage all that data? The solution is likely something you already have in your digital camera or MP3 player: Flash Cards! These are often referred to as SD cards or microSD cards. They can hold gigabytes of data in a space smaller than a coin, making them a crucial part of our everyday tech.
+                    <br><br>
+                    A microSD card module makes it easy to interface your Arduino with a microSD card, making data storage in your next project a breeze. Let’s dive in and explore how!
+                </p>
+                </div>
+                  </div>
+
+                  <div class="article hidden" id="article3">
+                    <h2>Interfacing HC05 Bluetooth Module with Arduino</h2>
+            <div class="content-wrapper">
+                <div class="image-wrapper">
+                    <img src="IMGS/3.webp" alt="">
+                </div>
+                <p>The HC-05 is a Bluetooth-to-Serial-Bridge module that allows wireless communications between two microcontrollers or between a microcontroller and a smartphone, laptop, or desktop PC with Bluetooth capability. It’s perfect for directly replacing a wired asynchronous serial interface!
+                    <br><br>
+                    Each of these modules contains a Bluetooth transceiver, meaning they’re capable of both sending and receiving data.
+                    <br><br>
+                    As a Class 2 Bluetooth device, the HC-05 has a nominal range of 10 m. Of course, that is out in the open. Its range gets a little weaker inside the house, especially because of the walls.
+                    To top it all off, these modules are very easy to use. There’s no need to mess with Bluetooth protocols or the stack. Just send data over a serial interface, and it’s piped through to whatever Bluetooth device it’s connected to.
+                </p>
+                </div>
+                      </div>
+                      
+            <div class="article hidden" id="article5">
+            <h2>Interfacing Multiple DS18B20 Digital Temperature Sensors with Arduino</h2>
+            <div class="content-wrapper">
+                <div class="image-wrapper">
+                    <img src="IMGS/5.webp" alt="">
+                </div>
+                <p>One of the DS18B20’s features is that multiple DS18B20s can coexist on the same 1-Wire bus. Because each DS18B20 is pre-programmed with a unique 64-bit serial code, they can be distinguished from one another.
+                    <br><br>
+                    The following tutorial will show you how to read the temperature from multiple DS18B20s connected to the same bus. This feature can be extremely useful when you need to control multiple DS18B20s spread across a large area.
+                    <br><br>
+                    Before proceeding with this tutorial, you should be familiar with the basics of the DS18B20 one-wire temperature sensor. Please consider reading the tutorial below first.
+                </p>
+                </div>
+            </div>
+
+            <div class="article hidden" id="article6">
+                <h2>How 433MHz RF Tx-Rx Modules Work & Interface with Arduino</h2>
+                <div class="content-wrapper">
+                    <div class="image-wrapper">
+                        <img src="IMGS/6.webp" alt="">
+                    </div>
+                    <p>Interested in making your next Arduino project wireless for the price of a cup of coffee? Then go with a 433MHz RF Transmitter and Receiver Module!
+                        <br><br>
+                        It is available online for less than two dollars, making it one of the most affordable data communication options available.
+                        <br><br>
+                        And, best of all, this module is so small that you can incorporate it into almost any project.
+                    </p>
+                    </div>
+                </div>
+
+                <div class="article hidden" id="article7">
+                    <h2>Making Two Arduinos Communicate Wirelessly Using HC-05 Bluetooth Modules</h2>
+                    <div class="content-wrapper">
+                        <div class="image-wrapper">
+                            <img src="IMGS/7.webp" alt="">
+                        </div>
+                        <p>To make two Arduino boards communicate wirelessly, we need to configure one HC-05 module as master and the other as slave, and pair them.
+                            <br><br>
+                            This is known as master-slave setup—It’s the simplest way to establish a wireless connection between two devices. The master device initiates the connection and searches for other devices, while the slave device waits for the connection request from the master device.
+                            <br><br>
+                            Once the connection is established, the master and slave devices can exchange data bidirectionally.
+                            In order to configure the HC-05 modules, we need to connect them to a PC and use a serial terminal software (such as Arduino IDE Serial Monitor or PuTTY) to send AT commands.
+                        </p>
+                        </div>
+                    </div>
+
+                    <div class="article hidden" id="article8">
+                        <h2>Making Two Arduinos Communicate Wirelessly Using HC-05 Bluetooth Modules</h2>
+                        <div class="content-wrapper">
+                            <div class="image-wrapper">
+                                <img src="IMGS/8.webp" alt="">
+                            </div>
+                            <p>Want to keep a log of the climate in your greenhouse, build a humidor control system, or track temperature and humidity data for a weather station project? 
+                                <br><br>
+                                The HTU21D temperature and humidity sensor may be the right choice for you!
+                                <br><br>
+                                This sensor is factory-calibrated and needs no external components to work. So with just a few connections and some Arduino code, you can start measuring relative humidity and temperature right away.
+                            </p>
+                            </div>
+                        </div>
+
+                        <div class="article hidden" id="article9">
+                            <h2>How HC-SR04 Ultrasonic Sensor Works & Interface It With Arduino</h2>
+                            <div class="content-wrapper">
+                                <div class="image-wrapper">
+                                    <img src="IMGS/9.webp" alt="">
+                                </div>
+                                <p>Give your next Arduino project bat-powers with the HC-SR04 Ultrasonic Distance Sensor that can report the range of objects up to 13 feet away. This is a good thing to know when you’re trying to save your robot from hitting a wall.
+                                    They are low power (suitable for battery operated devices), affordable, easy to interface and extremely popular with hobbyists.
+                                    <br><br>
+                                    An HC-SR04 ultrasonic distance sensor actually consists of two ultrasonic transducers.
+                                    One acts as a transmitter that converts the electrical signal into 40 KHz ultrasonic sound pulses. The other acts as a receiver and listens for the transmitted pulses
+                                    <br><br>
+                                    When the receiver receives these pulses, it produces an output pulse whose width is proportional to the distance of the object in front.
+                                    <br><br>
+                                    This sensor provides excellent non-contact range detection between 2 cm to 400 cm (~13 feet) with an accuracy of 3 mm.
+                                    Since it operates on 5 volts, it can be connected directly to an Arduino or any other 5V logic microcontroller.
+                                </p>
+                                </div>
+                            </div>
+                        </section>
+
+<section>
+    <div class="text">
+    <h2>ESP8266 Projects</h2>
+</div>
+
+    <div class="slider">
+        <div class="item"onclick="showArticle('article10'); return false;">
+            <img src="IMGS/esp1.jpg" alt="Gambar 1">
+            <h2>ESP32 vs. ESP8266: Which Microcontroll</h2>
+            <p>ESP32 vs. ESP8266. If you have an Internet of Things...</p>
+            
+        </div>
+        <div class="item" onclick="showArticle('article11'); return false;">
+            <img src="IMGS/esp2.jpg" alt="Gambar 2">
+            <h2>Installing ESP8266 Board in the Arduino...</h2>
+            <p>There are several development platforms available for...</p>
+           
+        </div>
+        <div class="item" onclick="showArticle('article12'); return false;">
+            <img src="IMGS/esp3.jpg" alt="Gambar 3">
+            <h2>Create A Simple ESP8266 NodeMCU...</h2>
+            <p>In recent years, the ESP8266 has risen to prominence in...</p>
+            
+        </div>
+
+        <div class="item" onclick="showArticle('article13'); return false;">
+            <img src="IMGS/esp4.jpg" alt="Gambar 4">
+            <h2>Create A Simple ESP8266 Weather...</h2>
+            <p>Don't let the smartphone weather apps or commercial...</p>
+            
+        </div>
+
+        <div class="item" onclick="showArticle('article14'); return false;">
+            <img src="IMGS/esp5.jpg" alt="Gambar 5">
+            <h2>Control WS2812B Addressable LEDs...</h2>
+            <p>Whether you call them individually addressable RGB...</p>
+            
+        </div>
+
+        <div class="item" onclick="showArticle('article15'); return false;">
+            <img src="IMGS/esp6.jpg" alt="Gambar 6">
+            <h2>Configuring & Handling ESP8266...</h2>
+            <p>Often in a project you want the ESP8266 to perform...</p>
+            
+        </div>
+
+        <div class="item"  onclick="showArticle('article16'); return false;">
+            <img src="IMGS/esp7.jpg" alt="Gambar 7">
+            <h2>Getting Date & Time From NTP Server Wi...</h2>
+            <p>Every now and then, you'll come across an idea where...</p>
+            
+        </div>
+
+        <div class="item" onclick="showArticle('article17'); return false;">
+            <img src="IMGS/esp8.jpg" alt="Gambar 8">
+            <h2>ESP8266 Over The Air (OTA) Programming...</h2>
+            <p>One of the best things about ESP8266 is that its...</p>
+           
+        </div>
+
+        <div class="item" onclick="showArticle('article18'); return false;">
+            <img src="IMGS/esp9.jpg" alt="Gambar 9">
+            <h2>Display Values of Multiple DS18B20s...</h2>
+            <p>Have you ever wanted to have sensors scattered all around...</p>
+            
+        </div>
+    </div>
+   <div class="article hidden" id="article10">
+    <h2>ESP32 vs. ESP8266: Which Microcontroller Is Right for You?</h2>
+    <div class="content-wrapper">
+        <div class="image-wrapper">
+            <img src="IMGS/esp1.jpg" alt="">
+        </div>
+        <p>ESP32 vs. ESP8266. If you have an Internet of Things project in mind, you’ll inevitably face the choice between these two MCU heavyweights. Both are well-known microcontrollers, and for good reason. They are small, low-power Wi-Fi-enabled microcontrollers with 32-bit CPUs ideal for controlling a wide range of electronics projects.
+            <br><br>
+            But how do you determine which one is better suited for your project?
+            <br><br>
+            Let’s begin with a comparison of the two to help you make a decision. We won’t focus solely on the fastest MCU, the most power-efficient one, or the one offering the best value for money. Instead, we’ll consider various factors, including processing power, connectivity features, hardware specifications, development environments, pricing, and more.
+            <br><br>
+            So, let’s go the rounds with ESP32 vs. ESP8266.
+        </p>
+    </div>
+</div>
+<div class="article hidden " id="article11">
+    <h2>Installing the ESP8266 Board in the Arduino IDE</h2>
+    <div class="content-wrapper">
+        <div class="image-wrapper">
+            <img src="IMGS/esp2.jpg" alt="ESP8266 Image">
+        </div>
+        <p>There are several development platforms available for programming the ESP8266. You can go with:<br><br>
+            Arduino IDE – intended for those who are familiar with Arduino<br>
+            Espruino – JavaScript SDK and firmware closely emulating Node.js<br>
+            Mongoose OS – An operating system for IoT devices that is recommended by Espressif Systems and Google Cloud IoT<br>
+            MicroPython – Implementation of Python 3 for microcontrollers<br>
+            Ezoic
+            SDK provided by Espressif – Official SDK to take advantage of all ESP8266 features
+            <br><br>
+             Arduino IDE is the most user-friendly for beginners. While it may not be the ideal platform for working with the ESP8266, it is a program that most people are already familiar with, which makes getting started much easier.
+Before you can use the Arduino IDE to program the ESP8266, you must first install the ESP8266 board (also known as the ESP8266 Arduino Core) via the Arduino Board Manager. This guide will walk you through the process of downloading, installing, and testing the ESP8266 Arduino Core.
+        </p>
+    </div>
+</div>
+<div class="article hidden " id="article12">
+    <h2>Create A Simple ESP8266 NodeMCU Web Server In Arduino IDE</h2>
+    <div class="content-wrapper">
+        <div class="image-wrapper">
+            <img src="IMGS/esp3.jpg" alt="ESP8266 Image">
+        </div>
+        <p>In recent years, the ESP8266 has risen to prominence in IoT and WiFi-related projects. It’s a low-cost WiFi module that, with a little extra effort, can be programmed to run a standalone web server. What a cool thing!
+   <br><br>
+  ESP8266 Operating Modes
+  <br><br>
+  One of the most useful features of the ESP8266 is its ability to not only connect to an existing WiFi network and act as a Web Server, but also to create its own network, allowing other devices to connect directly to it and access web pages.
+<br><br>
+This is possible because the ESP8266 can operate in three modes: Station (STA) mode, Soft Access Point (AP) mode, and both simultaneously.
+
+        </p>
+    </div>
+</div>
+<div class="article hidden " id="article13">
+    <h2>Create A Simple ESP8266 Weather Station With BME280</h2>
+    <div class="content-wrapper">
+        <div class="image-wrapper">
+            <img src="IMGS/esp4.jpg" alt="ESP8266 Image">
+        </div>
+        <p>Don’t let the smartphone weather apps or commercial weather stations(that feeds you with data from stations based miles away) ruin your outdoor plans. With this IoT project you can be your own weatherman!
+<br><br>
+            This project uses ESP8266 NodeMCU as the control device that easily connects to existing WiFi network & creates a Web Server. When any connected device accesses this web server, ESP8266 reads in temperature, humidity, barometric pressure & altitude from BME280 & sends it to the web browser of that device with a nice interface. Excited? Let’s get started!
+        </p>
+    </div>
+</div>
+<div class="article hidden " id="article14">
+    <h2>Control WS2812B Addressable LEDs with ESP8266 and WLED
+    </h2>
+    <div class="content-wrapper">
+        <div class="image-wrapper">
+            <img src="IMGS/esp5.jpg" alt="ESP8266 Image">
+        </div>
+        <p>Whether you call them individually addressable RGB LEDs, WS2812B, or NeoPixels, there’s no denying that they are extremely popular and a must-have for any glowy and blinky project.
+            <br><br>
+            Writing code to control addressable LEDs isn’t difficult, but what if you just want to add some ambient lighting to your living room or office and manage it all from your smartphone? Currently the best option, hands down, is WLED—A free, feature-rich, open-source mobile app that gives us complete command over a wide variety of RGB LEDs.
+            <br><br>
+            The WLED app makes controlling individually addressable LEDs much simpler, convenient, and—most importantly—fun. This app is just too cool not to try.
+            <br><br>
+            In this tutorial, we will learn how to install WLED on an ESP8266 board and use it to control a string of addressable LEDs.
+
+        </p>
+    </div>
+</div>
+<div class="article hidden " id="article15">
+    <h2>Configuring & Handling ESP8266 GPIO Interrupts In Arduino IDE
+    </h2>
+    <div class="content-wrapper">
+        <div class="image-wrapper">
+            <img src="IMGS/esp6.jpg" alt="ESP8266 Image">
+        </div>
+        <p>Often in a project you want the ESP8266 to perform its normal program while continuously monitoring for some kind of event. One widely adopted solution for this is the use of interrupts.
+           <br><br>
+            Interrupts can be classified into two types.
+            <br><br>
+            Hardware interrupts – These occur in response to an external event. For example, a GPIO interrupt (when a key is pressed).
+            <br><br>
+            Software Interrupts – These occur in response to a software instruction. For example, a simple timer interrupt or a watchdog timer interrupt (when the timer times out).
+        </p>
+    </div>
+</div>
+<div class="article hidden " id="article16">
+    <h2>Getting Date & Time From NTP Server With ESP8266 NodeMCU
+    </h2>
+    <div class="content-wrapper">
+        <div class="image-wrapper">
+            <img src="IMGS/esp7.jpg" alt="ESP8266 Image">
+        </div>
+        <p> Every now and then, you’ll come across an idea where keeping time is a top priority. For example, consider a relay that must be activated at a specific time or a data logger that must store values at precise intervals.
+           <br><br>
+            The first thing that comes to mind is to use an RTC (Real Time Clock) chip. However, because these chips are not perfectly accurate, you must perform manual adjustments on a regular basis to keep them synchronized.
+            <br><br>
+            Instead, it is preferable to employ the Network Time Protocol (NTP). If your ESP8266 project has Internet access, you can obtain date and time (with a precision of a few milliseconds of UTC) for FREE. Also, you don’t need any additional hardware.
+        </p>
+    </div>
+</div>
+<div class="article hidden " id="article17">
+    <h2>ESP8266 Over The Air (OTA) Programming In Arduino IDE
+    </h2>
+    <div class="content-wrapper">
+        <div class="image-wrapper">
+            <img src="IMGS/esp8.jpg" alt="ESP8266 Image">
+        </div>
+        <p> What is OTA programming in ESP8266?
+            <br><br>
+            OTA programming lets you update/upload a new program to the ESP8266 over Wi-Fi without having to connect the ESP8266 to the computer via USB.
+            <br><br>
+            The OTA functionality comes in handy when there is no physical access to the ESP module. In addition, it reduces the time required to update each ESP module during maintenance.
+            <br><br>
+            One key advantage of OTA is that a single central location can send an update to multiple ESPs on the same network.
+            <br><br>
+            The only disadvantage is that you must include an OTA code with each sketch you upload in order to use OTA in the next update.
+        </p>
+    </div>
+</div>
+<div class="article hidden " id="article18">
+    <h2>Display Values of Multiple DS18B20s on ESP8266 NodeMCU Web Server
+    </h2>
+    <div class="content-wrapper">
+        <div class="image-wrapper">
+            <img src="IMGS/esp9.jpg" alt="ESP8266 Image">
+        </div>
+        <p>Have you ever wanted to have sensors scattered all around your house and garden reporting their temperature regularly to a central server? Then, this IoT project might be the solid launching point for you!
+           <br><br>
+            This project uses ESP8266 NodeMCU as the control device that easily connects to existing WiFi network & creates a Web Server. When any connected device accesses this web server, ESP8266 reads in temperature from multiple DS18B20 Temperature sensors & sends it to the web browser of that device with a nice interface. Excited? Let’s get started!
+            <br><br>
+            Multiple DS18B20s On Single Bus
+            <br><br>
+            One of the biggest features of DS18B20 is that multiple DS18B20s can coexist on the same 1-Wire bus. As each DS18B20 has a unique 64-bit serial code burned in at the factory, it’s easier to differentiate them from one another.
+            <br><br>
+This feature can be a huge advantage when you want to control many DS18B20s distributed over a large area. In this tutorial we are going to do the same.
+        </p>
+    </div>
+</div>
+
+</section>
+
+
+            <section id="kontak">
+      <div class="footer">
+        <div class="main">
+          <div class="list">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#">Beranda</a></li>
+              <li><a href="#">Arduino</a></li>
+              <li><a href="#">Tentang</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">Kontak</a></li>
+            </ul>
+          </div>
+
+          <div class="list">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#">Beranda</a></li>
+              <li><a href="#">Arduino</a></li>
+              <li><a href="#">Tentang</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">Kontak</a></li>
+            </ul>
+          </div>
+
+          <div class="list">
+            <h4>Connect</h4>
+            <div class="social">
+              <a href="#"><i class="bx bxl-facebook"></i></a>
+              <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+              <a href="#"><i class="bx bxl-linkedin"></i></a>
+              <a href="#"><i class="bx bxl-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="end-text">
+        <p>Copyright @2024 All Rights reserved / made with by Ibig Academy</p>
+      </div>
+    </section>
+
+    <button id="backToTopBtn" class="back-to-top-btn"><i class="fas fa-arrow-up"></i></button>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script src="JS/artikel.js"></script>
+<script src="JS/backtotopscroll.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $('.slider').slick({
+            dots: true,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 1,
+            slidesToScroll: 1
+        });
+    });
+</script>
+</body>
+</html>
